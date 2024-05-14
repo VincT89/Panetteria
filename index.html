@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panetteria</title>
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="imm/favicon.png" type="image/x-icon">
+
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+  <!-- navbar -->
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Forno</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#new" class="nav__link">Novita'</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Chi siamo</a>
+          </li>
+          <li class="nav__item">
+            <a href="#favorite" class="nav__link">Preferiti</a>
+          </li>
+          <li class="nav__item">
+            <a href="#visit" class="nav__link">Posizione</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+        <img src="imm/bread-4.png" alt="" class="nav__img-1">
+        <img src="imm/bread-1.png" alt="" class="nav__img-2">
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-fill"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main -->
+
+  <main class="main">
+
+    <!-- home section -->
+
+    <section class="home section" id="home">
+      <img src="imm/home-bg.png" alt="" class="home__bg">
+      <div class="home__shadow"></div>
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h1 class="home__title">
+            Seleziona le migliori <br> varietà di pane
+          </h1>
+          <a href="#" class="button">Seleziona Pane</a>
+          <img src="imm/bread-1.png" alt="" class="home__bread">
+        </div>
+        <div class="home__image">
+          <img src="imm/home-bread.png" alt="" class="home__img">
+        </div>
+
+        <footer class="home__footer">
+          <div class="home__location">
+            <i class="ri-map-pin-line"></i>
+            <span>Colobraro</span>
+          </div>
+          <div class="home__social">
+            <a href="" target="_blank">
+              <i class="ri-facebook-circle-line"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="" target="_blank">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <!-- news section -->
+
+    <section class="new section" id="new">
+      <h2 class="section__title">Nuove varieta' di pane</h2>
+      <div class="new__container container grid">
+        <div class="new__content grid">
+          <article class="new__card">
+            <div class="new__data">
+              <h2 class="new__title">Pane di segale</h2>
+              <p class="new__description">
+                Preparato con farina di segale,
+                lievito naturale e senza glutine
+              </p>
+            </div>
+            <img src="imm/new-bread-1.png" alt="" class="new__img">
+          </article>
+          <article class="new__card">
+            <div class="new__data">
+              <h2 class="new__title">Pane Integrale</h2>
+              <p class="new__description">
+                Croccante e preparato in casa
+                con farina biologica senza lievito.
+              </p>
+            </div>
+            <img src="imm/new-bread-2.png" alt="" class="new__img">
+          </article>
+          <article class="new__card">
+            <div class="new__data">
+              <h2 class="new__title">Pane Multicereali</h2>
+              <p class="new__description">
+                Gustoso e preparato con diversi grani naturali della nostra terra.
+              </p>
+            </div>
+            <img src="imm/new-bread-3.png" alt="" class="new__img">
+          </article>
+        </div>
+        <a href="" class="new__button button">Vedi altre varieta'</a>
+      </div>
+    </section>
+
+    <!-- aboutUs section -->
+
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__data">
+          <h2 class="section__title">Chi siamo</h2>
+
+          <p class="about__description">
+            Prepariamo pane fresco ogni giorno con ingredienti naturali e biologici, senza conservanti e additivi, per
+            garantire la massima qualità e genuinità. Manteniamo la tradizione e la passione per la panificazione, per
+            offrire ai nostri clienti prodotti sani e gustosi.
+          </p>
+
+          <a href="" class="button">Scopri di piu'</a>
+
+          <img src="imm/bread-2.png" alt="" class="about__bread">
+        </div>
+        <img src="imm/about-bread.png" alt="" class="about__img">
+      </div>
+    </section>
+
+    <!-- favorite section -->
+
+    <section class="favorite section" id="favorite">
+      <h2 class="section__title">Preferiti dai Clienti</h2>
+
+      <div class="favorite__container container grid">
+
+        <article class="favorite__card">
+          <img src="imm/favorite-bread-1.png" alt="" class="favorite__img">
+          <div class="favorite__data">
+            <h2 class="favorite__title">Grano Intero</h2>
+            <span class="favorite__subtitle">Pane</span>
+            <h3 class="favorite__price">6.00 € </h3>
+          </div>
+          <button class="button favorite__button">
+            <i class="ri-shopping-cart-line"></i>
+        </article>
+
+        <article class="favorite__card">
+          <img src="imm/favorite-bread-2.png" alt="" class="favorite__img">
+          <div class="favorite__data">
+            <h2 class="favorite__title">Segale</h2>
+            <span class="favorite__subtitle">Pane</span>
+            <h3 class="favorite__price">8.00 € </h3>
+          </div>
+          <button class="button favorite__button">
+            <i class="ri-shopping-cart-line"></i>
+        </article>
+
+        <article class="favorite__card">
+          <img src="imm/favorite-bread-3.png" alt="" class="favorite__img">
+          <div class="favorite__data">
+            <h2 class="favorite__title">Grano Duro </h2>
+            <span class="favorite__subtitle">Pane</span>
+            <h3 class="favorite__price">6.00 € </h3>
+          </div>
+          <button class="button favorite__button">
+            <i class="ri-shopping-cart-line"></i>
+        </article>
+
+        <article class="favorite__card">
+          <img src="imm/favorite-bread-4.png" alt="" class="favorite__img">
+          <div class="favorite__data">
+            <h2 class="favorite__title">Multicereali</h2>
+            <span class="favorite__subtitle">Pane</span>
+            <h3 class="favorite__price">6.00 € </h3>
+          </div>
+          <button class="button favorite__button">
+            <i class="ri-shopping-cart-line"></i>
+        </article>
+
+        <article class="favorite__card">
+          <img src="imm/favorite-bread-5.png" alt="" class="favorite__img">
+          <div class="favorite__data">
+            <h2 class="favorite__title">Lievito Madre</h2>
+            <span class="favorite__subtitle">Pane</span>
+            <h3 class="favorite__price">9.00 € </h3>
+          </div>
+          <button class="button favorite__button">
+            <i class="ri-shopping-cart-line"></i>
+        </article>
+
+        <article class="favorite__card">
+          <img src="imm/favorite-bread-6.png" alt="" class="favorite__img">
+          <div class="favorite__data">
+            <h2 class="favorite__title">Francese</h2>
+            <span class="favorite__subtitle">Pane</span>
+            <h3 class="favorite__price">4.00 € </h3>
+          </div>
+          <button class="button favorite__button">
+            <i class="ri-shopping-cart-line"></i>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- visit section -->
+
+    <section class="visit section" id="visit">
+      <div class="visit__container">
+        <img src="imm/visit-bg.png" alt="" class="visit__bg">
+        <div class="visit__shadow"></div>
+        <div class="visit__content container grid">
+          <div class="visit__data">
+            <h2 class="section__title">Visitateci</h2>
+            <p class="visit__description">
+              Produciamo il miglior pane <br> della Regione.
+            </p>
+            <a href="" class="button">Vedi Posizione</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="" class="footer__logo">Forno</a>
+          <p class="footer__description">
+            Produciamo il miglior pane <br> della Regione.
+          </p>
+        </div>
+
+        <div class="footer__content grid">
+          <div>
+            <h3 class="footer__title">Indirizzo</h3>
+            <ul class="footer__list">
+              <li>
+                <address class="footer__info">Colobraro</address>
+              </li>
+              <li>
+                <address class="footer__info">9:00 - 20:00</address>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Contatti</h3>
+            <ul class="footer__list">
+              <li>
+                <address class="footer__info">forno@gmail.com</address>
+              </li>
+              <li>
+                <address class="footer__info">333-3333333</address>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Seguici</h3>
+            <div class="footer__social">
+              <a href="" target="_blank">
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+              <a href="" target="_blank">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="" target="_blank">
+                <i class="ri-whatsapp-line"></i>
+              </a>
+            </div>
+          
+
+            <img src="imm/bread-4.png" alt="" class="footer__img-1">
+            <img src="imm/bread-3.png" alt="" class="footer__img-2">
+          </div>
+        </div>
+        <div class="footer__container__copy">
+          <span class="footer__copy">
+            &copy; 2021 Forno. All right reserved By <a href="" target="_blank">Vincenzo Tito</a>
+          </span>
+        </div>
+        
+    </footer>
+  </main>
+
+  <a href="" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <script src="script.js" async></script>
+  <script src="scrollreveal.min.js" async></script>
+</body>
+
+</html>
